@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       if (distance < 0) {
         clearInterval(countdown);
-        document.getElementById("countdown").innerHTML = "I Love You ! &#x2764;";
+        document.getElementById("countdown").innerHTML = "I Love You !";
         showFireworks();
         playTrumpetSound();
       }
